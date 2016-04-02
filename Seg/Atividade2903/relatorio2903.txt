@@ -1,0 +1,84 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%		    Relatório atividade: Ciframento Simétrico		      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Atividades:
+1- Gerar arquivos com a soma;
+2- Enviar um arquivo, não necessariamente o mesmo, a todos da classe;
+3- Indicar quem fez a soma;
+4- Listar dificuldades.
+
+Contexto:
+   A criptografia simétrica é utilizada em conjunto com uma chave, esta chave 
+é necessária para decifrar a mensagem. Portanto somente quem obtiver a mensagem 
+em conjunto com a chave poderá ler o arquivo.
+
+Processo:
+   Foram criados 29 arquivos, correspondentes aos outros participantes da turma. 
+Todos os arquivos possuem terminação ".zt" e contém:
+	- número de matrícula;
+	- nome do participante;
+	- dois números.
+   Após esta primeira etapa, os arquivos foram criptografados utilizando o GPG. 
+O comando utilizado foi: 
+	- 'gpg --passphrase "nro matricula" -c nome_arquivo.
+
+	Obs.: Onde "nro matricula" é o número da matrícula, propriamente dita de 
+	cada participante e o nome_arquivo, é o nome literal do arquivo, que foi 
+	definido como sendo o nome do participante. A flag "--passphrase", iden-
+	tifica a chave que será utilizada para criptografar o arquivo.
+   Terminado está segunda etapa, os arquivos foram enviados através dos e-mails, 
+contidos no forúm da disciplina, dentro do cagr. A  chave foi informada a cada 
+participante e esperado uma resposta.
+
+Resultados:
+   Por demora nas respostas, os resultados ainda não obtidos, da soma dos 
+dois números enviados, foi convencionado colocar o símbolo ? (ponto de in-
+terrogação), para identificar o desconhecimento do resultado retornado.
+
+- Chave -  |  - - - - - - - - Nome arquivo - - - - - - - - | -  Nº - | - Resultados -
+------------------------------------------------------------------------------------- 
+13106343   |   Abraham_Jean.zt                             |  10 20  |       ?
+12106258   |   Ana_Cristina_Medaglia_Dyonisio.zt           |  10 21  |       ?
+09132004   |   André_Azevedo_Vargas.zt                     |  10 22  |       ?
+12106259   |   Andre_Beims_Brascher.zt                     |  10 23  |       ?
+12100740   |   Cesar_Smaniotto_Junior.zt                   |  10 24  |       ?
+11100871   |   Diego_Almeida_de_Oliveira.zt                |  10 25  |       ?
+13104674   |   Douglas_Marcelino_Beppler_Martins.zt        |  10 26  |       ?
+11103876   |   Eduardo_Beckhauser.zt                       |  10 27  |       ?
+13200638   |   Emmanuel_Podestá_Junior.zt                  |  10 28  |       ?
+12106252   |   Gabriel_Capeletti.zt                        |  10 29  |       ?
+12103437   |   Gilney_Nathanael_Mathias.zt                 |  10 30  |       ?
+14103948   |   Giovanni_Antonio_Tomaso_Ferreira_Rotta.zt   |  10 31  |       ?
+13100751   |   Guilherme_Nakayama_da_Silva.zt              |  10 32  |       ?
+13103524   |   Gustavo_Jose_Carpeggiani.zt                 |  10 33  |       ?
+13104307   |   Gustavo_Zambonin.zt                         |  10 34  |       ?
+13100753   |   Igor_da_Silva_Solecki.zt                    |  10 35  |       ?
+14100836   |   Ion_José_de_Souza_Neto.zt                   |  10 36  |       ?
+11100883   |   Jaime_Mendes_da_Silva.zt                    |  10 37  |       ?
+13103523   |   Lucas_Finger_Roman.zt                       |  10 38  |       ?
+13100760   |   Lucas_Ribeiro_Neis.zt                       |  10 39  |       ?
+13100761   |   Luiz_Carlos_Ferreira_Junior.zt              |  10 40  |       ?
+12200647   |   Luiz_Henrique_Urias_de_Sousa.zt             |  10 41  |       ?
+13100767   |   Matheus_Teixeira_Pereira.zt                 |  10 42  |       ?
+14100868   |   Quenio_Cesar_Machado_dos_Santos.zt          |  10 43  |       ?
+13100773   |   Ranieri_Schroeder_Althoff.zt                |  10 44  |       ?
+12200658   |   Ricardo_Ademar_Bezerra_de_Almeida.zt        |  10 45  |       ?
+12104064   |   Rodrigo_Aguiar_Costa.zt                     |  10 46  |       ?
+13100778   |   Vinícius_Couto_Biermann.zt                  |  10 47  |       ?
+11100901   |   Willian_Santos_de_Souza.zt                  |  10 48  |       ?
+
+Dificuldades:
+   A principal dificuldade foi entender o funcionamento da criptografia simétrica,
+assim como achar um meio, viável para o envio do arquivo e da chave de acesso para 
+a descriptografia.
+   Dentro do processo descrito, não houve dificuldades maiores, tendo em vista que
+a maior parte do mesmo tenha se resumido em preparar os arquivos.
+   Para evitar o tumulto dentro da sala de aula, durante o envio da chave, que na 
+maior parte dos casos, foi feita verbalmente, poderia ser feita uma convenção, de 
+forma que não fosse necessário o envio da mesma.
+
+
+
+
+
